@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bookly/Features/Splash/presentation/views/widgets/sliding_text.dart';
-import 'package:flutter_bookly/Features/home/presentation/views/home_view.dart';
-import 'package:flutter_bookly/constants.dart';
 import 'package:flutter_bookly/core/utils/app_router.dart';
 import 'package:flutter_bookly/core/utils/assets.dart';
 import 'package:go_router/go_router.dart';
