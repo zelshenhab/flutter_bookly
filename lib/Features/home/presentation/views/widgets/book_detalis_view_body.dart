@@ -3,6 +3,7 @@ import 'package:flutter_bookly/Features/home/presentation/views/widgets/book_rat
 import 'package:flutter_bookly/Features/home/presentation/views/widgets/books_action.dart';
 import 'package:flutter_bookly/Features/home/presentation/views/widgets/custom_book_detalis_app_bar.dart';
 import 'package:flutter_bookly/Features/home/presentation/views/widgets/custom_book_item.dart';
+import 'package:flutter_bookly/Features/home/presentation/views/widgets/similar_books_list_view.dart';
 import 'package:flutter_bookly/core/utils/styles.dart';
 
 class BookDetalisViewBody extends StatelessWidget {
@@ -41,6 +42,22 @@ class BookDetalisViewBody extends StatelessWidget {
             height: 37,
           ),
           const BooksAction(),
+          const SizedBox(
+            height: 50,
+          ),
+          Align(
+            alignment: Alignment.centerLeft,
+            child: Text("You can also like",
+                style:
+                    Styles.textStyle14.copyWith(fontWeight: FontWeight.w600)),
+          ),
+          const SizedBox(
+            height: 20,
+          ),
+          const SimilarBooksListView(),
+          const SizedBox(
+            height: 40,
+          ),
         ],
       ),
     );
