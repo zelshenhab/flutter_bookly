@@ -14,6 +14,14 @@ class BookRating extends StatelessWidget {
       mainAxisAlignment: mainAxisAlignment,
       children: [
         const Icon(
+          Icons.favorite,
+          size: 20,
+          color: Colors.red,
+        ),
+        const SizedBox(
+          width: 10,
+        ),
+        const Icon(
           FontAwesomeIcons.solidStar,
           size: 14,
           color: Color(0xffFFDD4D),
