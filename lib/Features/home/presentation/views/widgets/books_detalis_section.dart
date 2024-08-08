@@ -15,7 +15,10 @@ class BookDetalisSection extends StatelessWidget {
       children: [
         Padding(
           padding: EdgeInsets.symmetric(horizontal: width * .2),
-          child: const CustomBookImage(),
+          child: const CustomBookImage(
+            imageUrl:
+                'https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg',
+          ),
         ),
         Text("The Jungle Book",
             style: Styles.textStyle30.copyWith(fontWeight: FontWeight.bold)),
